@@ -1,0 +1,25 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 256px;
+  margin: 10px auto;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  .sun {
+    width: 70px;
+    height: 70px;
+    margin: 20px 0;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  .temperature {
+    margin: 0;
+    font-size: 45px;
+  }
+  .temp-description {
+    font-size: 18px;
+    color: gray;
+  }
+}
